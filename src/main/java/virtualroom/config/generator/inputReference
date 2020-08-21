@@ -1,0 +1,16 @@
+fghfdhbljkgfjbfgfrnfgnbfnzthtzlkgbhj
+
+1.(length[1])0.1-beta                                           // version
+2.(count[2])(furniId[6])(furniId[6])..                          // stayfurniture
+3.(count[2])(furniId[6]typeId[2]z[1+2])..                       // furnimapping
+4.(count[2])(typeId[2]x[1]y[1]z[1+2]rot[1]strLen[2]str)..       // addfloorfurni
+5.(count[2])(typeId[2]x[1]y[1]l1[1+1]l2[1+2]lr[1]strLen[2]str)..    // addwallfurni
+7.wallinvisible[1]wallThickness[1+1]floorThickness[1+1]         // roomthickness
+8.len[2]heightmap                                               // heightmap
+9.id[6]                                                         // initdoubleclickfurni
+a.len[2]message                                                 // welcomemessage
+b.(count[2])(furniId[6])(furniId[6])..                          // staywallfurniture
+c.mottoroomchat[1]                                              // mottoroomchat enable
+d.(l[1]wallpaper)(l[1]floor)(l[1]landscape)                     // roompaint (empty = no override)
+e.id[6]states[1]amount[1]                                       // seed colortile
+f.surpressShout[1]                                              // surpressShout enable
